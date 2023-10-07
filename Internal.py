@@ -24,7 +24,8 @@ def InternalScores(k, content):
     ClusterList = []
     for i in range(0, k, 1):
         Cluster = content.loc[content.Class==i]
-        ClusterList.append(Cluster.values)
+        if len(Cluster)!=0:
+            ClusterList.append(Cluster.values)
     DI = DunnIndex(ClusterList)
 
     return DI, DBI, SilScore, CHScore
