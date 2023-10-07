@@ -10,3 +10,4 @@ Following is description of files/directories:
 3. The Inbuilt.py contains the above algorithms imported from the sklearn/pyclustering library of python.
 4. Internal.py consists of the Internal Clustering metrics Dunn Index, Davies Bouldin Index, Calinski Harabasz Score, Silhouette Coefficient imported from sklearn/direct code.
 5. External.py consists of the External Clustering metrics Rand Index, Jaccard Score, Fowlkes Mallows Score, F1 Score imported from sklearn.
+6. Directory Results contains Results obtained by running Main.py on different datasets for various algorithms.
