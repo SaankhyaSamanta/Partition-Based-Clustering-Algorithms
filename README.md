@@ -12,3 +12,4 @@ Following is description of files/directories:
 5. Internal.py consists of the Internal Clustering metrics Dunn Index, Davies Bouldin Index, Calinski Harabasz Score, Silhouette Coefficient imported from sklearn/direct code.
 6. External.py consists of the External Clustering metrics Rand Index, Jaccard Score, Fowlkes Mallows Score, F1 Score imported from sklearn.
 7. Directory Results contains Results obtained by running Main.py on different datasets for various algorithms.
+8. Clustering Evaluation and Comparirsion.xlsx contains scores obtained by the various datasets on the various algorithms in tabulated format.
